@@ -1,0 +1,21 @@
+<h1>Student table</h1>
+<table>
+  <thead>
+    <th>ID</th>
+    <th>Fio</th>
+    <th>Group_of_students</th>
+    <th>Phone_number</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of students">
+      <td>{{student.id}}</td>
+      <td>{{student.fio}}</td>
+      <td>{{student.group_of_students}}</td>
+      <td>{{student.phone_number}}</td>
+    </tr>
+  </tbody>
+</table>
+<button (click)="addNewStudent()">Add new student</button>
+<br>
+
+

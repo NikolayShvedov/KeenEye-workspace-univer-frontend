@@ -1,0 +1,11 @@
+<h1>Student editor</h1>
+{{editingStudent.fio}} {{editingStudent.group_of_students}} {{editingStudent.phone_number}}
+<br/>
+<input [(ngModel)]="editingStudent.fio" type="text">
+<br/>
+<input [(ngModel)]="editingStudent.group_of_students" type="text">
+<br/>
+<input [(ngModel)]="editingStudent.phone_number" type="text">
+<br/>
+<button (click)="addStudent()">Add new student</button>
+
