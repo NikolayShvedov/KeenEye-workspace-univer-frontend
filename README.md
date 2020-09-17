@@ -1,6 +1,7 @@
 # Univer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+To install this version use the following command in terminal: npm install -g @angular/cli@9.0.6
 
 ## Development server
 
